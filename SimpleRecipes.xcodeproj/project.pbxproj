@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		966B759127D4141A009ACF52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966B759027D4141A009ACF52 /* AppDelegate.swift */; };
 		966B759327D4141A009ACF52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966B759227D4141A009ACF52 /* SceneDelegate.swift */; };
-		966B759527D4141A009ACF52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966B759427D4141A009ACF52 /* ViewController.swift */; };
-		966B759827D4141A009ACF52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 966B759627D4141A009ACF52 /* Main.storyboard */; };
+		966B759527D4141A009ACF52 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966B759427D4141A009ACF52 /* CategoryViewController.swift */; };
 		966B759A27D4141B009ACF52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 966B759927D4141B009ACF52 /* Assets.xcassets */; };
 		966B759D27D4141B009ACF52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 966B759B27D4141B009ACF52 /* LaunchScreen.storyboard */; };
+		966B75A627D425DB009ACF52 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966B75A527D425DB009ACF52 /* Categories.swift */; };
+		966B75F027D59BFC009ACF52 /* MealsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966B75EF27D59BFC009ACF52 /* MealsViewController.swift */; };
+		966B75F227D5A5E6009ACF52 /* Meals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966B75F127D5A5E6009ACF52 /* Meals.swift */; };
+		966B75F627D5A67E009ACF52 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966B75F527D5A67E009ACF52 /* NetworkService.swift */; };
+		966B75F827D5AB8D009ACF52 /* MealDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966B75F727D5AB8C009ACF52 /* MealDetails.swift */; };
+		966B75FA27D5AD70009ACF52 /* MealDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966B75F927D5AD70009ACF52 /* MealDetailViewController.swift */; };
+		966B75FF27D5BEBF009ACF52 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966B75FE27D5BEBF009ACF52 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		966B758D27D4141A009ACF52 /* SimpleRecipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleRecipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		966B759027D4141A009ACF52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		966B759227D4141A009ACF52 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		966B759427D4141A009ACF52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		966B759727D4141A009ACF52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		966B759427D4141A009ACF52 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		966B759927D4141B009ACF52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		966B759C27D4141B009ACF52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		966B759E27D4141B009ACF52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		966B75A527D425DB009ACF52 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		966B75EF27D59BFC009ACF52 /* MealsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsViewController.swift; sourceTree = "<group>"; };
+		966B75F127D5A5E6009ACF52 /* Meals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meals.swift; sourceTree = "<group>"; };
+		966B75F527D5A67E009ACF52 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		966B75F727D5AB8C009ACF52 /* MealDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetails.swift; sourceTree = "<group>"; };
+		966B75F927D5AD70009ACF52 /* MealDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailViewController.swift; sourceTree = "<group>"; };
+		966B75FE27D5BEBF009ACF52 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,45 @@
 		966B758F27D4141A009ACF52 /* SimpleRecipes */ = {
 			isa = PBXGroup;
 			children = (
+				966B75FB27D5AD79009ACF52 /* ViewControllers */,
+				966B75F427D5A668009ACF52 /* API */,
+				966B75A427D42594009ACF52 /* Model */,
 				966B759027D4141A009ACF52 /* AppDelegate.swift */,
 				966B759227D4141A009ACF52 /* SceneDelegate.swift */,
-				966B759427D4141A009ACF52 /* ViewController.swift */,
-				966B759627D4141A009ACF52 /* Main.storyboard */,
 				966B759927D4141B009ACF52 /* Assets.xcassets */,
 				966B759B27D4141B009ACF52 /* LaunchScreen.storyboard */,
 				966B759E27D4141B009ACF52 /* Info.plist */,
+				966B75FE27D5BEBF009ACF52 /* Extensions.swift */,
 			);
 			path = SimpleRecipes;
+			sourceTree = "<group>";
+		};
+		966B75A427D42594009ACF52 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				966B75A527D425DB009ACF52 /* Categories.swift */,
+				966B75F127D5A5E6009ACF52 /* Meals.swift */,
+				966B75F727D5AB8C009ACF52 /* MealDetails.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		966B75F427D5A668009ACF52 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				966B75F527D5A67E009ACF52 /* NetworkService.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		966B75FB27D5AD79009ACF52 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				966B759427D4141A009ACF52 /* CategoryViewController.swift */,
+				966B75F927D5AD70009ACF52 /* MealDetailViewController.swift */,
+				966B75EF27D59BFC009ACF52 /* MealsViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +169,6 @@
 			files = (
 				966B759D27D4141B009ACF52 /* LaunchScreen.storyboard in Resources */,
 				966B759A27D4141B009ACF52 /* Assets.xcassets in Resources */,
-				966B759827D4141A009ACF52 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +179,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				966B759527D4141A009ACF52 /* ViewController.swift in Sources */,
+				966B75F227D5A5E6009ACF52 /* Meals.swift in Sources */,
+				966B75F827D5AB8D009ACF52 /* MealDetails.swift in Sources */,
+				966B75FA27D5AD70009ACF52 /* MealDetailViewController.swift in Sources */,
+				966B759527D4141A009ACF52 /* CategoryViewController.swift in Sources */,
 				966B759127D4141A009ACF52 /* AppDelegate.swift in Sources */,
+				966B75FF27D5BEBF009ACF52 /* Extensions.swift in Sources */,
+				966B75F027D59BFC009ACF52 /* MealsViewController.swift in Sources */,
 				966B759327D4141A009ACF52 /* SceneDelegate.swift in Sources */,
+				966B75A627D425DB009ACF52 /* Categories.swift in Sources */,
+				966B75F627D5A67E009ACF52 /* NetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		966B759627D4141A009ACF52 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				966B759727D4141A009ACF52 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		966B759B27D4141B009ACF52 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,7 +334,6 @@
 				INFOPLIST_FILE = SimpleRecipes/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,7 +361,6 @@
 				INFOPLIST_FILE = SimpleRecipes/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
