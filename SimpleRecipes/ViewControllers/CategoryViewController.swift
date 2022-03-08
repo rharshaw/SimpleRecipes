@@ -13,6 +13,8 @@ class CategoryViewController: UIViewController, UITableViewDelegate, UITableView
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationItem.title = "Categories"
+        self.navigationController?.navigationBar.prefersLargeTitles = true
         view.addSubview(tableView)
         self.view.isUserInteractionEnabled = true
         tableView.frame = view.bounds
